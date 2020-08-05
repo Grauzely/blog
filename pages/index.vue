@@ -14,7 +14,7 @@
         <img class="image-perfil" src="/perfil.jpg" />
       </div>
       <div class="schema-home">
-        <img src="../assets/svg/schema.svg" />
+        <img src="/schema.svg" />
       </div>
     </div>
     <div class="body-home">
@@ -69,8 +69,7 @@ export default {
 }
 
 .header-home {
-  background: linear-gradient(0deg, #272729d1, #272729d1),
-    url(../assets/svg/bg.svg);
+  background: linear-gradient(0deg, #272729d1, #272729d1), url(/bg.svg);
   height: 450px;
   background-position: center;
   background-size: cover;
