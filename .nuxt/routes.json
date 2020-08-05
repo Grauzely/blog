@@ -1,0 +1,37 @@
+[
+  {
+    "name": "search",
+    "path": "/search",
+    "component": "C:\\\\grauz_tecnologia\\\\vuejs\\\\blog\\\\pages\\\\search.vue",
+    "chunkName": "pages/search",
+    "_name": "_39c5ec6d"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\grauz_tecnologia\\\\vuejs\\\\blog\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_1519009d"
+  },
+  {
+    "name": "category",
+    "path": "/:category",
+    "component": "C:\\\\grauz_tecnologia\\\\vuejs\\\\blog\\\\pages\\\\_category\\\\index.vue",
+    "chunkName": "pages/_category/index",
+    "_name": "_3483c05a"
+  },
+  {
+    "name": "category-subcategory",
+    "path": "/:category/:subcategory",
+    "component": "C:\\\\grauz_tecnologia\\\\vuejs\\\\blog\\\\pages\\\\_category\\\\_subcategory\\\\index.vue",
+    "chunkName": "pages/_category/_subcategory/index",
+    "_name": "_87835c0a"
+  },
+  {
+    "name": "category-subcategory-slug",
+    "path": "/:category/:subcategory/:slug",
+    "component": "C:\\\\grauz_tecnologia\\\\vuejs\\\\blog\\\\pages\\\\_category\\\\_subcategory\\\\_slug.vue",
+    "chunkName": "pages/_category/_subcategory/_slug",
+    "_name": "_8af09e9a"
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "AppSearchInput": {
+    "description": "Auto imported from components/AppSearchInput.vue"
+  },
+  "LazyAppSearchInput": {
+    "description": "Auto imported from components/AppSearchInput.vue"
+  },
+  "Card": {
+    "description": "Auto imported from components/Card.vue"
+  },
+  "LazyCard": {
+    "description": "Auto imported from components/Card.vue"
+  },
+  "Dropdown": {
+    "description": "Auto imported from components/Dropdown.vue"
+  },
+  "LazyDropdown": {
+    "description": "Auto imported from components/Dropdown.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "LazyFooter": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "NavBar": {
+    "description": "Auto imported from components/NavBar.vue"
+  },
+  "LazyNavBar": {
+    "description": "Auto imported from components/NavBar.vue"
+  },
+  "PageCategory": {
+    "description": "Auto imported from components/PageCategory.vue"
+  },
+  "LazyPageCategory": {
+    "description": "Auto imported from components/PageCategory.vue"
+  },
+  "Paginator": {
+    "description": "Auto imported from components/Paginator.vue"
+  },
+  "LazyPaginator": {
+    "description": "Auto imported from components/Paginator.vue"
+  },
+  "PrevNext": {
+    "description": "Auto imported from components/PrevNext.vue"
+  },
+  "LazyPrevNext": {
+    "description": "Auto imported from components/PrevNext.vue"
+  }
+}
