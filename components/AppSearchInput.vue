@@ -9,7 +9,7 @@
       @keypress.enter="searchArticles"
     />
     <button class="btn-search" @click="searchArticles">
-      <img src="../assets\svg\search.svg" />
+      <img src="/icon/search.svg" />
     </button>
   </div>
 </template>
