@@ -1,50 +1,50 @@
 {
   "AppSearchInput": {
-    "description": "Auto imported from components/AppSearchInput.vue"
+    "description": "Auto imported from components/global/AppSearchInput.vue"
   },
   "LazyAppSearchInput": {
-    "description": "Auto imported from components/AppSearchInput.vue"
+    "description": "Auto imported from components/global/AppSearchInput.vue"
   },
   "Card": {
-    "description": "Auto imported from components/Card.vue"
+    "description": "Auto imported from components/global/Card.vue"
   },
   "LazyCard": {
-    "description": "Auto imported from components/Card.vue"
+    "description": "Auto imported from components/global/Card.vue"
   },
   "Dropdown": {
-    "description": "Auto imported from components/Dropdown.vue"
+    "description": "Auto imported from components/global/Dropdown.vue"
   },
   "LazyDropdown": {
-    "description": "Auto imported from components/Dropdown.vue"
+    "description": "Auto imported from components/global/Dropdown.vue"
   },
   "Footer": {
-    "description": "Auto imported from components/Footer.vue"
+    "description": "Auto imported from components/global/Footer.vue"
   },
   "LazyFooter": {
-    "description": "Auto imported from components/Footer.vue"
+    "description": "Auto imported from components/global/Footer.vue"
   },
   "NavBar": {
-    "description": "Auto imported from components/NavBar.vue"
+    "description": "Auto imported from components/global/NavBar.vue"
   },
   "LazyNavBar": {
-    "description": "Auto imported from components/NavBar.vue"
+    "description": "Auto imported from components/global/NavBar.vue"
   },
   "PageCategory": {
-    "description": "Auto imported from components/PageCategory.vue"
+    "description": "Auto imported from components/global/PageCategory.vue"
   },
   "LazyPageCategory": {
-    "description": "Auto imported from components/PageCategory.vue"
+    "description": "Auto imported from components/global/PageCategory.vue"
   },
   "Paginator": {
-    "description": "Auto imported from components/Paginator.vue"
+    "description": "Auto imported from components/global/Paginator.vue"
   },
   "LazyPaginator": {
-    "description": "Auto imported from components/Paginator.vue"
+    "description": "Auto imported from components/global/Paginator.vue"
   },
   "PrevNext": {
-    "description": "Auto imported from components/PrevNext.vue"
+    "description": "Auto imported from components/global/PrevNext.vue"
   },
   "LazyPrevNext": {
-    "description": "Auto imported from components/PrevNext.vue"
+    "description": "Auto imported from components/global/PrevNext.vue"
   }
 }
