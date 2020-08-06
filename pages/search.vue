@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="body-home">
+    <div class="body-search">
       <div class="title-body">
         <h1>Resultados da busca "{{ this.$route.query.value }}"</h1>
       </div>
@@ -45,4 +45,10 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+@media (max-width: 600px) {
+  .body-search {
+    margin-top: 50px;
+  }
+}
+</style>

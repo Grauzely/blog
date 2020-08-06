@@ -35,7 +35,7 @@ export default {
   async asyncData({ $content, params }) {
     const articles = await $content('/', { deep: true })
       .sortBy('createdAt', 'desc')
-      .limit(12)
+      .limit(6)
       .fetch()
 
     return {

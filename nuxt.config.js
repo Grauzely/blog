@@ -14,7 +14,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Blog - GrauZ Tecnologia',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -73,4 +73,5 @@ export default {
    */
   build: {},
   router: {},
+  loading: { color: '#b22727' },
 }

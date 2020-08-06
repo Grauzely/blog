@@ -180,6 +180,10 @@ code {
     font-size: 14px;
   }
 
+  .nuxt-content li {
+    font-size: 14px;
+  }
+
   .nuxt-content ul li {
     font-size: 14px;
   }

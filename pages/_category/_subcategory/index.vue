@@ -23,13 +23,13 @@ const pagination = {
   getArticlesOfPage($content, page, category, sort, filter) {
     return $content(category, { deep: true })
       .sortBy('createdAt', sort)
-      .skip(12 * (page - 1))
-      .limit(12)
+      .skip(9 * (page - 1))
+      .limit(9)
       .fetch()
   },
   async getNumberOfPages($content, category, filter) {
     return Math.ceil(
-      (await $content(category, { deep: true }).only([]).fetch()).length / 12
+      (await $content(category, { deep: true }).only([]).fetch()).length / 9
     )
   },
 }
