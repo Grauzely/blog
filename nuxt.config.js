@@ -74,4 +74,12 @@ export default {
   build: {},
   router: {},
   loading: { color: '#b22727' },
+  pwa: {
+    manifest: {
+      name: 'Grauz Blog',
+      short_name: 'Grauz Blog',
+      lang: 'pt-br',
+      useWebmanifestExtension: false,
+    },
+  },
 }
