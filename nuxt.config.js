@@ -14,7 +14,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: 'GrauZ Knowlegde',
+    title: 'GrauZ Knowlegde - Blog',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -26,64 +26,64 @@ export default {
       { mobileAppIOS: true },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'apple-touch-startup-image',
-        href: 'iphone5_splash.png',
+        href: '/iphone5_splash.png',
         media:
           '(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)',
       },
       {
         rel: 'apple-touch-startup-image',
-        href: 'iphone6_splash.png',
+        href: '/iphone6_splash.png',
         media:
           '(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)',
       },
       {
         rel: 'apple-touch-startup-image',
-        href: 'iphoneplus_splash.png',
+        href: '/iphoneplus_splash.png',
         media:
           '(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)',
       },
       {
         rel: 'apple-touch-startup-image',
-        href: 'iphonex_splash.png',
+        href: '/iphonex_splash.png',
         media:
           '(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)',
       },
       {
         rel: 'apple-touch-startup-image',
-        href: 'iphonexr_splash.png',
+        href: '/iphonexr_splash.png',
         media:
           '(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)',
       },
       {
         rel: 'apple-touch-startup-image',
-        href: 'iphonexsmax_splash.png',
+        href: '/iphonexsmax_splash.png',
         media:
           '(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)',
       },
       {
         rel: 'apple-touch-startup-image',
-        href: 'ipad_splash.png',
+        href: '/ipad_splash.png',
         media:
           '(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)',
       },
       {
         rel: 'apple-touch-startup-image',
-        href: 'ipadpro1_splash.png',
+        href: '/ipadpro1_splash.png',
         media:
           '(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)',
       },
       {
         rel: 'apple-touch-startup-image',
-        href: 'ipadpro3_splash.png',
+        href: '/ipadpro3_splash.png',
         media:
           '(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)',
       },
       {
         rel: 'apple-touch-startup-image',
-        href: 'ipadpro2_splash.png',
+        href: '/ipadpro2_splash.png',
         media:
           '(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)',
       },
@@ -139,8 +139,8 @@ export default {
   loading: { color: '#b22727' },
   pwa: {
     manifest: {
-      name: 'Grauz Knowlegde',
-      short_name: 'Grauz Knowlegde',
+      name: 'Grauz Blog',
+      short_name: 'Grauz Blog',
       lang: 'pt-br',
       theme_color: '#272729',
       background_color: '#272729',
