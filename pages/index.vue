@@ -2,12 +2,18 @@
   <div class="container">
     <div class="header-home">
       <div class="title-home">
-        <h1>BEM-VINDO A GRAUZ TECNOLOGIA</h1>
+        <h1>
+          GrauZ Knowledge - Repositório de Conhecimentos
+        </h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          Meu nome é Gustavo Grauzely, sou um desenvolvedor super fullstack
+          (pois vou design ao servidor rsrs). A idea desse blog é ser um
+          repositório de conhecimentos onde eu posso consultar todos
+          conhecimentos, ideias, macetes dentre outras coisas que eu adquiri no
+          decorrer da minha carreira e também uma forma ajudar outros
+          desenvolvedores quem tiverem intersse no conteúdo. O foco dos artigos
+          sempre vão tecnlogias que eu uso para desenvolver meus projetos no
+          dia-a-dia.
         </p>
       </div>
       <div class="perfil-home">
@@ -85,11 +91,17 @@ a:-webkit-any-link {
 }
 
 .title-home {
-  padding: 100px 100px 10px 250px;
+  padding: 60px 100px 10px 250px;
   grid-area: title-home;
 }
 
 .title-home h1 {
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.title-home h2 {
   color: #fff;
 }
 
@@ -150,24 +162,34 @@ a:-webkit-any-link {
   }
 
   .title-home {
-    padding: 140px 10px 10px 20px;
+    padding: 85px 10px 10px 20px;
   }
 
   .title-home h1 {
     font-size: 19px;
   }
 
+  .title-home h2 {
+    font-size: 16px;
+  }
+
   .schema-home img {
     width: 250px;
   }
 
+  .schema-home {
+    margin-top: 5px;
+  }
+
   .image-perfil {
     width: 100px;
-    margin-top: 120px;
+    margin-top: 80px;
   }
 
   .title-home p {
     font-size: 12px;
+    line-height: 15px;
+    margin-top: 0;
   }
 
   .column {
