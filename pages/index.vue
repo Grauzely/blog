@@ -1,26 +1,24 @@
 <template>
-  <div class="container">
+  <div class="container-home">
     <div class="header-home">
       <div class="title-home">
         <h1>
           GrauZ Knowledge - Repositório de Conhecimentos
         </h1>
         <p>
-          Meu nome é Gustavo Grauzely, sou um desenvolvedor super fullstack
-          (pois vou design ao servidor rsrs). A idea desse blog é ser um
-          repositório de conhecimentos onde eu posso consultar todos
-          conhecimentos, ideias, macetes dentre outras coisas que eu adquiri no
-          decorrer da minha carreira e também uma forma ajudar outros
-          desenvolvedores quem tiverem intersse no conteúdo. O foco dos artigos
-          sempre vão tecnlogias que eu uso para desenvolver meus projetos no
-          dia-a-dia.
+          A idea desse blog é ser um repositório de conhecimentos onde eu posso
+          consultar todos conhecimentos, ideias, macetes dentre outras coisas
+          que eu adquiri no decorrer da minha carreira e também uma forma ajudar
+          outros desenvolvedores quem tiverem intersse no conteúdo. O foco dos
+          artigos sempre vão tecnlogias que eu uso para desenvolver meus
+          projetos no dia-a-dia.
         </p>
       </div>
       <div class="perfil-home">
         <img class="image-perfil" src="/perfil.jpg" />
       </div>
       <div class="schema-home">
-        <img src="/schema.svg" />
+        <img src="/schema.png" />
       </div>
     </div>
     <div class="body-home">
@@ -70,7 +68,7 @@ export default {
 </script>
 
 <style>
-.container {
+.container-home {
   padding-top: 60px;
 }
 
@@ -155,7 +153,52 @@ a:-webkit-any-link {
   max-width: 33.33%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
+  .title-home {
+    padding: 40px 0 7px 44px;
+  }
+  .image-perfil {
+    margin-left: 70px;
+  }
+  .body-home {
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .title-home {
+    padding: 80px 10px 10px 70px;
+  }
+  .title-home h1 {
+    font-size: 24px;
+  }
+  .title-home p {
+    font-size: 14px;
+  }
+  .schema-home {
+    margin-top: 20px;
+  }
+  .schema-home img {
+    width: 500px;
+  }
+  .title-body h1 {
+    font-size: 20px;
+  }
+  .body-home {
+    padding: 0 50px;
+  }
+  .card-post-tag .tag {
+    font-size: 8px;
+  }
+  .image-card {
+    width: 20px;
+  }
+  .card-post-date .date {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 450px) {
   .body-home {
     padding: 0 10px;
     margin-bottom: 40px;

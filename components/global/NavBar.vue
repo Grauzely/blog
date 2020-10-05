@@ -205,13 +205,23 @@ export default {
   display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1300px) {
   .nav-top {
-    padding: 0 20px;
+    padding: 0 40px;
+  }
+
+  .nav-menu ul li a {
+    margin: 0 10px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav-top {
+    padding: 0 70px;
     justify-content: space-between;
     height: 110px;
   }
-
   .nav-desktop {
     margin-top: 10px;
   }
@@ -249,7 +259,7 @@ export default {
     margin: 0 auto;
     padding: 0;
     margin-bottom: 8px;
-    margin-top: 17px;
+    margin-top: 0px;
   }
 
   .nav-menu-mobile ul li {
@@ -259,7 +269,7 @@ export default {
   .nav-menu-mobile ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     letter-spacing: 1.2px;
     margin: 0 17px;
@@ -272,6 +282,14 @@ export default {
     border-radius: 15px 0;
     border: none;
     transition: margin 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+}
+
+@media (max-width: 450px) {
+  .nav-top {
+    padding: 0 20px;
+    justify-content: space-between;
+    height: 110px;
   }
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container-category">
     <div class="header-category">
       <h1>{{ nameCategory }}</h1>
       <div class="btn-category">
@@ -64,6 +64,10 @@ export default {
 </script>
 
 <style>
+.container-category {
+  padding-top: 60px;
+}
+
 .header-category {
   margin: 0px 15% 2px 15%;
   border-bottom: 2px solid #b22727;
@@ -87,14 +91,34 @@ export default {
   flex-direction: row;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
+  .header-category {
+    margin: 0px 40px 2px 40px;
+  }
+  .body-category {
+    padding: 0 25px 30px 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container-category {
+    padding-top: 100px;
+  }
+  .header-category {
+    margin: 0px 67px 2px 67px;
+  }
+  .body-category {
+    padding: 0 57px 30px 57px;
+  }
+}
+
+@media (max-width: 450px) {
   .header-category {
     margin: 0px 10px 10px 10px;
     border-bottom: 0px;
     font-size: 18px;
     flex-direction: column;
     align-items: center;
-    padding-top: 70px;
   }
 
   .header-category h1 {

@@ -132,11 +132,34 @@ export default {
   -webkit-box-orient: vertical;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .card {
     margin: 10px;
+    padding: 10px 15px;
   }
+  .card-post-tag .tag {
+    font-size: 8px;
+  }
+  .image-card {
+    width: 20px;
+  }
+  .card-post-date .date {
+    font-size: 10px;
+  }
+  .card h2 {
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .card-post-description .description {
+    font-size: 12px;
+  }
+}
 
+@media (max-width: 450px) {
   .card-post-description .description {
     font-size: 12px;
   }

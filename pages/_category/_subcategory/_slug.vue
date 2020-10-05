@@ -159,7 +159,19 @@ code {
   font-size: 14px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
+  .article {
+    padding: 80px 40px 20px 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .article {
+    padding: 125px 70px 20px 70px;
+  }
+}
+
+@media (max-width: 450px) {
   .article {
     padding: 125px 10px 20px 10px;
   }
